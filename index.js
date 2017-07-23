@@ -62,7 +62,7 @@ function getData(req, res) {
 };
 
 app.get('/', function (req, res, next) {
-    res.redirect('/Stream(03)/index.m3u8');
+    res.redirect('/index.m3u8');
 });
 
 app.use(/\/.*/, function (req, res, next) {
